@@ -1,11 +1,7 @@
-[
-build
-]
+[build]
   command = "CI=false npm run build"
   publish = "build"
 
-[
-build.environment
-]
+[build.environment]
   NODE_VERSION = "16"
   NPM_VERSION = "8"
